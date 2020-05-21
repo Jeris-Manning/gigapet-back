@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const fs = require('fs');
+const fs = require('file-system');
 if (fs.existsSync('config/secrets.js')) {
   var secrets = require('../config/secrets.js');
 } else {
