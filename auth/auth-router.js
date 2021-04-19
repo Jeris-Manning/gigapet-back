@@ -2,7 +2,7 @@ const router = require('express').Router();
 const jwt = require('jsonwebtoken');
 const DB = require('../knex-queries/model.js');
 const bcrypt = require('bcryptjs');
-const fs = require('file-system');
+const fs = require('fs');
 if (fs.existsSync('config/secrets.js')) {
   var secret = require('../config/secrets.js');
 } else {
