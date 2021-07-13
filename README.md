@@ -1,9 +1,5 @@
 # Back-End
 
-## API Base URL
-
-[https://gigapets-winter-2019.herokuapp.com](https://gigapets-winter-2019.herokuapp.com/)
-
 ### Server Running Check
 
 **GET** /
